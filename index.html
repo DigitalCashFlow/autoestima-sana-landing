@@ -6,73 +6,75 @@
     <title>Autoestima Sana</title>
     <link rel="stylesheet" href="styles.css">
     
-    <!-- Facebook Pixel Code -->
-    <script>
-        !function(f,b,e,v,n,t,s)
-        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-        if(!f._fbq)f._fbq=n;
-        n.push=n;n.loaded=!0;n.version='2.0';
-        n.queue=[];t=b.createElement(e);t.async=!0;
-        t.src=v;s=b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t,s)}(window, document,'script',
-        'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '544773684566392'); 
-        fbq('track', 'PageView');
-    </script>
-    <noscript>
-        <img height="1" width="1" 
-        src="https://www.facebook.com/tr?id=544773684566392&ev=PageView&noscript=1"/>
-    </noscript>
-    <!-- End Facebook Pixel Code -->
-    
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Poppins', sans-serif;
             text-align: center;
-            background: linear-gradient(to right, #85FFBD, #FFFB7D);
+            background: linear-gradient(to right, #6a11cb, #2575fc);
             margin: 0;
             padding: 0;
+            color: #fff;
         }
         header {
             padding: 20px;
-            background: rgba(0, 0, 0, 0.7);
-            color: white;
-            font-size: 24px;
+            background: rgba(0, 0, 0, 0.8);
+            font-size: 26px;
+            font-weight: bold;
         }
         .container {
-            max-width: 600px;
+            max-width: 700px;
             margin: 50px auto;
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            background: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+            color: #333;
         }
         .cta-button {
             display: inline-block;
             margin-top: 20px;
-            padding: 15px 30px;
-            background-color: #28a745;
+            padding: 15px 35px;
+            background-color: #ff6f61;
             color: white;
             text-decoration: none;
-            font-size: 18px;
-            border-radius: 5px;
+            font-size: 20px;
+            font-weight: bold;
+            border-radius: 8px;
             transition: background 0.3s;
         }
         .cta-button:hover {
-            background-color: #218838;
+            background-color: #e64a45;
+        }
+        ul {
+            text-align: left;
+            margin: 20px 0;
+            padding: 0;
+            list-style: none;
+        }
+        ul li {
+            font-size: 18px;
+            padding: 8px 0;
+            display: flex;
+            align-items: center;
+        }
+        ul li::before {
+            content: '\2713';
+            color: #6a11cb;
+            font-weight: bold;
+            margin-right: 10px;
+            font-size: 22px;
         }
     </style>
 </head>
 <body>
     <header>Autoestima Sana</header>
     <div class="container">
-        <h1>Bienvenido a Autoestima Sana</h1>
-        <p>Transforma tu vida con autoestima y confianza.</p>
+        <h1>¡Transforma tu Autoestima Hoy!</h1>
+        <p>Descubre cómo mejorar tu confianza y seguridad en ti mismo con nuestras técnicas especializadas.</p>
         <ul>
+            <li>Aprende estrategias para fortalecer tu autoestima</li>
             <li>Desarrolla una mentalidad positiva</li>
-            <li>Mejora tu seguridad en ti mismo</li>
-            <li>Encuentra técnicas para fortalecer tu autoestima</li>
+            <li>Mejora tu bienestar emocional y personal</li>
         </ul>
         <a href="#" class="cta-button">Empieza ahora</a>
     </div>
