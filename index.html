@@ -22,14 +22,13 @@
             font-weight: bold;
         }
         .container {
-            max-width: 800px;
+            max-width: 700px;
             margin: 50px auto;
-            background: rgba(255, 255, 255, 0.95);
+            background: rgba(255, 255, 255, 0.9);
             padding: 30px;
             border-radius: 12px;
             box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
             color: #333;
-            text-align: center;
         }
         .cta-button {
             display: inline-block;
@@ -48,10 +47,9 @@
         }
         ul {
             text-align: left;
-            margin: 20px auto;
+            margin: 20px 0;
             padding: 0;
             list-style: none;
-            max-width: 600px;
         }
         ul li {
             font-size: 18px;
@@ -66,11 +64,14 @@
             margin-right: 10px;
             font-size: 22px;
         }
-        .hero-image {
+        .image-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .image-container img {
             max-width: 100%;
             height: auto;
-            border-radius: 10px;
-            margin-bottom: 20px;
+            border-radius: 12px;
         }
     </style>
     
@@ -95,7 +96,9 @@
 <body>
     <header>Autoestima Sana</header>
     <div class="container">
-        <img src="https://source.unsplash.com/800x400/?happy,confidence" alt="Autoestima Sana" class="hero-image">
+        <div class="image-container">
+            <img src="https://source.unsplash.com/700x400/?happy,confidence" alt="Autoestima y Confianza">
+        </div>
         <h1>¡Transforma tu Autoestima Hoy!</h1>
         <p>Descubre cómo mejorar tu confianza y seguridad en ti mismo con nuestras técnicas especializadas.</p>
         <ul>
@@ -107,4 +110,3 @@
     </div>
 </body>
 </html>
-
